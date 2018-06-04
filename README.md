@@ -99,6 +99,7 @@ SinglePxVLine：单像素竖线
 
 1. 通过xib或storyboard直接拖拽，使用autoLayout布局。
 2. 通过代码创建，使用frame或autoLayout布局。
+
 结果：相应的高或宽被无视，固定地显示为1.0/(UIScreen.main.scale)
 
  
