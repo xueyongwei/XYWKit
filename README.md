@@ -10,13 +10,19 @@ if FormatValidate.email("xueyongwei@foxmail.com").isRight == false{
 }
 ```
 #### PreferenceCenter
-偏好设置中心。通过集中管理userdefaults，有效避免混乱。
+偏好设置中心。通过集中管理Userdefaults，有效避免到处直接使用UserDefaults造成的混乱。
 使用示例：
 ```
+//判断一个布尔值
+if PreferenceCenter.bool.understandPreferenceCenter.isTrue{
+  debugPrint("PreferenceCenter？了然！")
+}
+//判断一个字符串
 if PreferenceCenter.string.lastUserToken.isEmpty(){
   debugPrint("没有上一个用户信息！")
 }
-if PreferenceCenter.bool.understandPreferenceCenter.isTrue{
-  debugPrint("PreferenceCenter？了然！")
+//获取用户信息
+if let userInfo = PreferenceCenter.dictionary.userSettingInfo.value {
+    debugPrint("用户信息：\(userInfo)")
 }
 ```
