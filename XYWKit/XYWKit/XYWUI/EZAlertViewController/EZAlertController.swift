@@ -8,6 +8,9 @@
 
 import UIKit
 
+/** XueYongWei 2018.6
+ Easy to use UiAlertContoller，通过block的方式使用，更简单。
+ **/
 @objc open class EZAlertController : NSObject {
 
     //==========================================================================================================
