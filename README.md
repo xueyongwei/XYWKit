@@ -1,10 +1,8 @@
 # XYWKit
 薛永伟自用工具包，日常工作中抽象出来供其他项目使用。可能包括较多类，通过搜索关键字进行搜索，或根据目录索引。
-[Tools](#tools)
-
-    [FormatValidate](#formatvalidate) 格式验证工具。
-    
-    [PreferenceCenter](#PreferenceCenter) 偏好设置中心。
+* [Tools](#tools)
+ * [FormatValidate](#formatvalidate) 格式验证工具。
+ * [PreferenceCenter](#PreferenceCenter) 偏好设置中心。
     
 ## Tools
 ### FormatValidate
