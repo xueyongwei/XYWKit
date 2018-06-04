@@ -33,6 +33,47 @@ if let userInfo = PreferenceCenter.dictionary.userSettingInfo.value {
     debugPrint("用户信息：\(userInfo)")
 }
 ```
+### APICenter
+APICenter是集中处理接口地址的类。本类使用了extension和struct来进行严谨划分，避免api的接口散乱、错误等问题的出现。
+通过配合PreferenceCenter，加入了运行环境的判断区别对待，让对API请求随心随性，又安全可靠。
+```
+fileprivate static func base_URL() -> String {
+        switch self.currentEnvironment {
+        case .develop:
+            return "http://114larc.com"
+        case .gray:
+            return "https://114la.com"
+        case .release:
+            return "https://114la.com"
+        }
+  }
+```
+默认的，我们将不同path的请求分开到不同的extension中，并以struct进行结构划分。
+每次新增接口，或新增接口分类（新path），只需新增扩展，写个struct，然后添加方法即可。
+例如新增收藏分类与相关增删改查接口:
+```
+ //MARK: - Base_Fav_URL
+ extension APICenter{
+    private static func Base_Fav_URL() -> String {
+        return base_URL() + "/Fav/api" + commonPath()
+    }
+    struct Fav {
+        //我的收藏
+        static func favList() ->String{
+            return APICenter.Base_News_URL() + "favList"
+        }
+        static func delFav() ->String{
+            return APICenter.Base_News_URL() + "delFav"
+        }
+    }
+ }
+ ```
+即使用API时,我们像阅读一样取出想要的url地址：
+热点新闻地址：
+```let urlStr = APICenter.News.hotNewsList()```
+授权信息地址：
+```let urlStr = APICenter.My.authInfo()```
+
 ## XYWUI
 ### EZAlertViewController
 Easy to use UiAlertContoller，通过block的方式使用，更简单。
