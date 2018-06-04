@@ -1,6 +1,9 @@
 # XYWKit
 薛永伟自用工具包，日常工作中抽象出来供其他项目使用。可能包括较多类，通过搜索关键字进行搜索，或根据目录索引。
 [Tools](#tools)
+    [FormatValidate](#formatvalidate)
+    [PreferenceCenter](#PreferenceCenter)
+    
 ## Tools
 ### FormatValidate
 格式验证工具。通过正则表达式对字符串进行验证，是否是正确的格式。
