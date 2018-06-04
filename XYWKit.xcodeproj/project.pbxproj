@@ -16,6 +16,7 @@
 		478CB7F620C514FD0093EC8D /* FormatValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CB7F420C514FD0093EC8D /* FormatValidate.swift */; };
 		478CB7FB20C525AC0093EC8D /* EZAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CB7FA20C525AC0093EC8D /* EZAlertController.swift */; };
 		478CB7FE20C526450093EC8D /* SinglePxLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CB7FD20C526450093EC8D /* SinglePxLine.swift */; };
+		478CB80220C537200093EC8D /* APICenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CB80120C537200093EC8D /* APICenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		478CB7F420C514FD0093EC8D /* FormatValidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatValidate.swift; sourceTree = "<group>"; };
 		478CB7FA20C525AC0093EC8D /* EZAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZAlertController.swift; sourceTree = "<group>"; };
 		478CB7FD20C526450093EC8D /* SinglePxLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePxLine.swift; sourceTree = "<group>"; };
+		478CB80120C537200093EC8D /* APICenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		478CB7F720C515060093EC8D /* XYWTools */ = {
 			isa = PBXGroup;
 			children = (
+				478CB80020C5370A0093EC8D /* APICenter */,
 				478CB7F320C514FD0093EC8D /* FormatValidate */,
 				478CB7F120C514FD0093EC8D /* PreferenceCenter */,
 			);
@@ -130,6 +133,14 @@
 				478CB7FD20C526450093EC8D /* SinglePxLine.swift */,
 			);
 			path = SinglePxLine;
+			sourceTree = "<group>";
+		};
+		478CB80020C5370A0093EC8D /* APICenter */ = {
+			isa = PBXGroup;
+			children = (
+				478CB80120C537200093EC8D /* APICenter.swift */,
+			);
+			path = APICenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				478CB7E120C513E80093EC8D /* ViewController.swift in Sources */,
+				478CB80220C537200093EC8D /* APICenter.swift in Sources */,
 				478CB7DF20C513E80093EC8D /* AppDelegate.swift in Sources */,
 				478CB7F620C514FD0093EC8D /* FormatValidate.swift in Sources */,
 				478CB7FB20C525AC0093EC8D /* EZAlertController.swift in Sources */,

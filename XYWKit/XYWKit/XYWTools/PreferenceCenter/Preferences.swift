@@ -83,15 +83,15 @@ extension PreferenceCenter{
     }
 }
 
-//MARK: - 数组
+//MARK: - 整形
 extension PreferenceCenter{
     enum int:String{
-        case testInt = "testInt"
+        case Environment = "P_Environment"
         //*** 在此添加更多的key即可直接使用。
     }
 }
 
-//MARK: - 数组
+//MARK: - 浮点型
 extension PreferenceCenter{
     enum float:String{
         case testFloat = "testFloat"
