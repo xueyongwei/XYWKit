@@ -1,11 +1,12 @@
 # XYWKit
-薛永伟自用工具包，日常工作中抽象出来供其他项目使用。可能包括较多类，根据目录索引快速了解。
+薛永伟自用工具包，日常工作中抽象出来供其他项目使用。相比YYKit通用性，主要是添加了些特殊但又常见的情况会用到的东西。
+可能包括较多类，根据目录索引快速了解。
 * [XYWTools](#xywtools)
-  * [FormatValidate](#formatvalidate) 格式验证工具。
-  * [PreferenceCenter](#preferencecenter) 偏好设置中心。
+  * [FormatValidate](#formatvalidate) 格式验证工具，如手机，邮箱，车牌，URL等。
+  * [PreferenceCenter](#preferencecenter) 偏好设置中心，严谨的分类不容易出错。
 * [XYWUI](#xywui)
   * [EZAlertViewController](#ezalertviewcontroller) 通过block的方式使用UiAlertContoller。
-  * [SinglePxLine](#singlepxline) 单像素的分割线。
+  * [SinglePxLine](#singlepxline) 单像素的分割线，亦有效避免cell上分割线消失的问题。
 ## XYWTools
 ### FormatValidate
 格式验证工具。通过正则表达式对字符串进行验证，是否是正确的格式。
