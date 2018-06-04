@@ -1,7 +1,7 @@
 # XYWKit
 薛永伟自用工具包，日常工作中抽象出来供其他项目使用。
 
-#### FormatValidate
+### FormatValidate
 格式验证工具。通过正则表达式对字符串进行验证，是否是正确的格式。
 使用示例：
 ```
@@ -9,7 +9,7 @@ if FormatValidate.email("xueyongwei@foxmail.com").isRight == false{
     debugPrint("邮箱格式错误！")
 }
 ```
-#### PreferenceCenter
+### PreferenceCenter
 偏好设置中心。通过集中管理Userdefaults，有效避免到处直接使用UserDefaults造成的混乱。
 使用示例：
 ```
@@ -26,7 +26,7 @@ if let userInfo = PreferenceCenter.dictionary.userSettingInfo.value {
     debugPrint("用户信息：\(userInfo)")
 }
 ```
-#### EZAlertViewController
+### EZAlertViewController
 Easy to use UiAlertContoller，通过block的方式使用，更简单。
 使用示例：
 ```
@@ -36,7 +36,7 @@ EZAlertController.alert("标题", message: "详细信息", buttons: ["取消","�
     }
 }
 ```
-#### SinglePxLine
+### SinglePxLine
 SinglePxHLine：单像素横线
 SinglePxVLine：单像素竖线
 这两个类保证分割是单像素的分割线，支持代码和IB创建，任意布局方式。
