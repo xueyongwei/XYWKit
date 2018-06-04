@@ -1,28 +1,6 @@
-<link rel="stylesheet" href="http://yandex.st/highlightjs/6.2/styles/googlecode.min.css">
- 
-<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-<script src="http://yandex.st/highlightjs/6.2/highlight.min.js"></script>
- 
-<script>hljs.initHighlightingOnLoad();</script>
-<script type="text/javascript">
- $(document).ready(function(){
-      $("h2,h3,h4,h5,h6").each(function(i,item){
-        var tag = $(item).get(0).localName;
-        $(item).attr("id","wow"+i);
-        $("#category").append('<a class="new'+tag+'" href="#wow'+i+'">'+$(this).text()+'</a></br>');
-        $(".newh2").css("margin-left",0);
-        $(".newh3").css("margin-left",20);
-        $(".newh4").css("margin-left",40);
-        $(".newh5").css("margin-left",60);
-        $(".newh6").css("margin-left",80);
-      });
- });
-</script>
-<div id="category"></div>
-
 # XYWKit
 薛永伟自用工具包，日常工作中抽象出来供其他项目使用。可能包括较多类，通过搜索关键字进行搜索，或根据目录索引。
-
+[Tools](#tools)
 ## Tools
 ### FormatValidate
 格式验证工具。通过正则表达式对字符串进行验证，是否是正确的格式。
