@@ -14,6 +14,8 @@
 		478CB7E920C513E80093EC8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478CB7E720C513E80093EC8D /* LaunchScreen.storyboard */; };
 		478CB7F520C514FD0093EC8D /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CB7F220C514FD0093EC8D /* Preferences.swift */; };
 		478CB7F620C514FD0093EC8D /* FormatValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CB7F420C514FD0093EC8D /* FormatValidate.swift */; };
+		478CB7FB20C525AC0093EC8D /* EZAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CB7FA20C525AC0093EC8D /* EZAlertController.swift */; };
+		478CB7FE20C526450093EC8D /* SinglePxLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CB7FD20C526450093EC8D /* SinglePxLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		478CB7EA20C513E80093EC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		478CB7F220C514FD0093EC8D /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		478CB7F420C514FD0093EC8D /* FormatValidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatValidate.swift; sourceTree = "<group>"; };
+		478CB7FA20C525AC0093EC8D /* EZAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZAlertController.swift; sourceTree = "<group>"; };
+		478CB7FD20C526450093EC8D /* SinglePxLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePxLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 		478CB7F020C514E90093EC8D /* XYWKit */ = {
 			isa = PBXGroup;
 			children = (
+				478CB7F820C525520093EC8D /* XYWUI */,
 				478CB7F720C515060093EC8D /* Tools */,
 			);
 			path = XYWKit;
@@ -100,6 +105,31 @@
 				478CB7F120C514FD0093EC8D /* PreferenceCenter */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		478CB7F820C525520093EC8D /* XYWUI */ = {
+			isa = PBXGroup;
+			children = (
+				478CB7FC20C526110093EC8D /* SinglePxLine */,
+				478CB7F920C525960093EC8D /* EZAlertViewController */,
+			);
+			path = XYWUI;
+			sourceTree = "<group>";
+		};
+		478CB7F920C525960093EC8D /* EZAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				478CB7FA20C525AC0093EC8D /* EZAlertController.swift */,
+			);
+			path = EZAlertViewController;
+			sourceTree = "<group>";
+		};
+		478CB7FC20C526110093EC8D /* SinglePxLine */ = {
+			isa = PBXGroup;
+			children = (
+				478CB7FD20C526450093EC8D /* SinglePxLine.swift */,
+			);
+			path = SinglePxLine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +207,9 @@
 				478CB7E120C513E80093EC8D /* ViewController.swift in Sources */,
 				478CB7DF20C513E80093EC8D /* AppDelegate.swift in Sources */,
 				478CB7F620C514FD0093EC8D /* FormatValidate.swift in Sources */,
+				478CB7FB20C525AC0093EC8D /* EZAlertController.swift in Sources */,
 				478CB7F520C514FD0093EC8D /* Preferences.swift in Sources */,
+				478CB7FE20C526450093EC8D /* SinglePxLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +349,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42FQR4EVHR;
 				INFOPLIST_FILE = XYWKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xueyongwei.XYWKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -332,6 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42FQR4EVHR;
 				INFOPLIST_FILE = XYWKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xueyongwei.XYWKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
