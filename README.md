@@ -1,5 +1,6 @@
 # XYWKit
-薛永伟自用工具包，日常工作中抽象出来供其他项目使用。可能包括较多类，根据目录索引快速了解。
+薛永伟自用工具包，日常工作中抽象出来供其他项目使用。相比YYKit通用性，主要是添加了些特殊但又常见的情况会用到的东西。
+可能包括较多类，根据目录索引快速了解。
 * [XYWTools](#xywtools)
   * [FormatValidate](#formatvalidate) 格式验证工具。
   * [PreferenceCenter](#preferencecenter) 偏好设置中心。
