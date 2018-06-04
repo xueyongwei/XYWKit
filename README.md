@@ -4,6 +4,7 @@
 * [XYWTools](#xywtools)
   * [FormatValidate](#formatvalidate) 格式验证工具，如手机，邮箱，车牌，URL等。
   * [PreferenceCenter](#preferencecenter) 偏好设置中心，严谨的分类不容易出错。
+  * [APICenter](#apicenter) 随心、易读、易扩展又可靠的API集中管理器。
 * [XYWUI](#xywui)
   * [EZAlertViewController](#ezalertviewcontroller) 通过block的方式使用UiAlertContoller。
   * [SinglePxLine](#singlepxline) 单像素的分割线，亦有效避免cell上分割线消失的问题。
