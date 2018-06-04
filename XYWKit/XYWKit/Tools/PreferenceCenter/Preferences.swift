@@ -18,7 +18,9 @@
 import UIKit
 
 
-/// 偏好设置中心：统一管理偏好设置，清晰的类别与层次，有效防止UserDefaults使用混乱.\n 不用主动调用synchronize同步，请自行调用PreferenceCenter.synchronize()
+/** 偏好设置中心：统一管理偏好设置，清晰的类别与层次，有效防止UserDefaults使用混乱.
+不用主动调用synchronize同步，请自行调用PreferenceCenter.synchronize()
+ **/
 struct PreferenceCenter:CustomStringConvertible {
     var description: String{
         return "偏好设置中心：统一管理偏好设置，清晰的类别与层次，有效防止UserDefaults使用混乱.\n 不用主动调用synchronize同步，请自行调用PreferenceCenter.synchronize()"
@@ -184,7 +186,7 @@ extension PreferenceCenter.int{
     }
     
     func setValue(_ int:Int){
-        UserDefaults.standard.set(array, forKey: self.rawValue)
+        UserDefaults.standard.set(int, forKey: self.rawValue)
     }
 }
 
@@ -193,7 +195,7 @@ extension PreferenceCenter.float{
     var value:Float{
         return UserDefaults.standard.float(forKey: self.rawValue)
     }
-    func setValue(_ int:Int){
-        UserDefaults.standard.set(array, forKey: self.rawValue)
+    func setValue(_ float:Int){
+        UserDefaults.standard.set(float, forKey: self.rawValue)
     }
 }
