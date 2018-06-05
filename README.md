@@ -9,7 +9,8 @@
   * [EZAlertViewController](#ezalertviewcontroller) - 通过block的方式使用UiAlertContoller。
   * [SinglePxLine](#singlepxline) - 单像素的分割线，亦有效避免cell上分割线消失的问题。
   
-** Talk is cheap.Show me your code. **
+**Talk is cheap.Show you my code.**
+
 ## XYWTools
 ### FormatValidate
 格式验证工具。通过正则表达式对字符串进行验证，是否是正确的格式。
