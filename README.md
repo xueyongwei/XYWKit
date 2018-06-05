@@ -26,6 +26,7 @@ if FormatValidate.carNum("京N V587").isRight == true{
 ```
 ### PreferenceCenter
 偏好设置中心。通过集中管理Userdefaults，有效避免到处直接使用UserDefaults造成的混乱。
+不同类型会有不同的方法，比如字符串有一个```isEmpty()```方法，但是不同类型基本的方法，比如取值(.value)和赋值(.setValue())是统一的。
 使用示例：
 ```
 //判断一个布尔值
@@ -99,7 +100,7 @@ SinglePxHLine：单像素横线
 
 SinglePxVLine：单像素竖线
 
-这两个类保证分割是单像素的分割线，支持代码和IB创建，任意布局方式。
+这两个类保证分割是单像素的分割线，支持代码和IB创建，任意布局方式。代码里自行修改分割线的颜色。
 
 释疑：继承自UIImageView，且不是通过backgroundColor设置背景色，是因为一般都是在cell中使用分割线，但是cell在选中状态会清空子view的背景色，导致分割线“消失”。故使用了一个带颜色的图片来替代背景色，防止cell选中状态分割线消失的情况发生。
 

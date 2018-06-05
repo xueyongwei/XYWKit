@@ -17,6 +17,7 @@
 		478CB7FB20C525AC0093EC8D /* EZAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CB7FA20C525AC0093EC8D /* EZAlertController.swift */; };
 		478CB7FE20C526450093EC8D /* SinglePxLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CB7FD20C526450093EC8D /* SinglePxLine.swift */; };
 		478CB80220C537200093EC8D /* APICenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CB80120C537200093EC8D /* APICenter.swift */; };
+		47E583FD20C66BA500A10074 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 47E583FC20C66BA500A10074 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		478CB7FA20C525AC0093EC8D /* EZAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZAlertController.swift; sourceTree = "<group>"; };
 		478CB7FD20C526450093EC8D /* SinglePxLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePxLine.swift; sourceTree = "<group>"; };
 		478CB80120C537200093EC8D /* APICenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICenter.swift; sourceTree = "<group>"; };
+		47E583FC20C66BA500A10074 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				478CB7E520C513E80093EC8D /* Assets.xcassets */,
 				478CB7E720C513E80093EC8D /* LaunchScreen.storyboard */,
 				478CB7EA20C513E80093EC8D /* Info.plist */,
+				47E583FC20C66BA500A10074 /* README.md */,
 			);
 			path = XYWKit;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			files = (
 				478CB7E920C513E80093EC8D /* LaunchScreen.storyboard in Resources */,
 				478CB7E620C513E80093EC8D /* Assets.xcassets in Resources */,
+				47E583FD20C66BA500A10074 /* README.md in Resources */,
 				478CB7E420C513E80093EC8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
