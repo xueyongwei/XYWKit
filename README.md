@@ -20,6 +20,9 @@
 if FormatValidate.email("xueyongwei@foxmail.com").isRight == false{
     debugPrint("邮箱格式错误！")
 }
+if FormatValidate.carNum("京N V587").isRight == true{
+    debugPrint("车牌号正确！")
+}
 ```
 ### PreferenceCenter
 偏好设置中心。通过集中管理Userdefaults，有效避免到处直接使用UserDefaults造成的混乱。
@@ -27,7 +30,7 @@ if FormatValidate.email("xueyongwei@foxmail.com").isRight == false{
 ```
 //判断一个布尔值
 if PreferenceCenter.bool.understandPreferenceCenter.isTrue{
-  debugPrint("PreferenceCenter？了然！")
+  debugPrint("了然！")
 }
 //判断一个字符串
 if PreferenceCenter.string.lastUserToken.isEmpty(){
